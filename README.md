@@ -19,3 +19,7 @@ maak de dir niet startend met een punt :3
 1. open "anaconda prompt"
 2. type and run `conda activate datascience`
 3. type and run `jupyter notebook`
+
+
+P value < 0.05 == relatie
+P value > 0.05 != relatie
