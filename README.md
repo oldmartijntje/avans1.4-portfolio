@@ -25,3 +25,5 @@ P value < 0.05 == relatie
 P value > 0.05 != relatie
 
 De p_value is de kans dat er geen correlation is. Is deze onder de 0,05? Dan is er sprake van een significant correlation. Als hij erboven zit niet
+
+Als er de confidence ranges overlappen in een barchart is er geen significante relatie.
