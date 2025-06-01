@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<body_mass_g &le; 4562.5<br/>entropy = 1.502<br/>samples = 142<br/>value = [103, 43, 84]<br/>class = Adelie>, fillcolor="#fcefe5"] ;
+1 [label=<bill_length_mm &le; 43.35<br/>entropy = 1.142<br/>samples = 94<br/>value = [98.0, 43.0, 8.0]<br/>class = Adelie>, fillcolor="#f2be98"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<flipper_length_mm &le; 86.0<br/>entropy = 0.338<br/>samples = 66<br/>value = [94, 3, 2]<br/>class = Adelie>, fillcolor="#e68843"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.918<br/>samples = 2<br/>value = [1, 0, 2]<br/>class = Gentoo>, fillcolor="#c09cf2"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.201<br/>samples = 64<br/>value = [93, 3, 0]<br/>class = Adelie>, fillcolor="#e6853f"] ;
+2 -> 4 ;
+5 [label=<bill_length_mm &le; 45.9<br/>entropy = 0.916<br/>samples = 28<br/>value = [4, 40, 6]<br/>class = Chinstrap>, fillcolor="#66eb9e"] ;
+1 -> 5 ;
+6 [label=<entropy = 1.509<br/>samples = 9<br/>value = [4, 9, 6]<br/>class = Chinstrap>, fillcolor="#d1f9e2"] ;
+5 -> 6 ;
+7 [label=<entropy = 0.0<br/>samples = 19<br/>value = [0, 31, 0]<br/>class = Chinstrap>, fillcolor="#39e581"] ;
+5 -> 7 ;
+8 [label=<body_mass_g &le; 4737.5<br/>entropy = 0.334<br/>samples = 48<br/>value = [5, 0, 76]<br/>class = Gentoo>, fillcolor="#8946e7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<flipper_length_mm &le; 205.5<br/>entropy = 0.94<br/>samples = 9<br/>value = [5, 0, 9]<br/>class = Gentoo>, fillcolor="#c7a7f3"] ;
+8 -> 9 ;
+10 [label=<entropy = 0.0<br/>samples = 3<br/>value = [5, 0, 0]<br/>class = Adelie>, fillcolor="#e58139"] ;
+9 -> 10 ;
+11 [label=<entropy = 0.0<br/>samples = 6<br/>value = [0, 0, 9]<br/>class = Gentoo>, fillcolor="#8139e5"] ;
+9 -> 11 ;
+12 [label=<entropy = 0.0<br/>samples = 39<br/>value = [0, 0, 67]<br/>class = Gentoo>, fillcolor="#8139e5"] ;
+8 -> 12 ;
+}
